@@ -41,6 +41,10 @@ h2 {
   font-family: 'Lora', serif;
 }
 
+h3 {
+font-family: 'Lora', serif;
+}
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -48,26 +52,43 @@ h2 {
   padding: 0.2em 0;
 }
 
-.logo {
+.top-bar-right {
+  padding-top: 12px;
+}
+
+ul.menu {
+  font-size:0px;
+}
+
+.toplogo {
   float: left;
+  height: 30px;
+  width: 30px;
+  padding-right: 0;
+  padding-top: 2px;
+  fill: $primary-color;
+}
+
+svg.toplogo {
+  fill: $primary-color;
   height: 60px;
   width: 60px;
-  padding-right: 0;
 }
 
 .logo-text,
 .top-bar,
 .top-bar ul {
-  background-color: $primary-color;
+  background-color: #FFF;
 }
 
 .logo-text {
   width: 1200px;;
-  color: #FFF;
+  color: $primary-color;
   padding-left: 5px;
   font-weight: 700;
   font-style: normal;
   font-size: 34px;
+padding-top: 15px;
 }
 
 .button {
@@ -96,4 +117,34 @@ svg.herologo {
 fill: $primary-color;
 height: 100px;
 width: 100px;
+}
+
+.thumbnail{
+border-width: 0;
+}
+
+.thumbnail:focus {
+border-width: 0;
+}
+
+
+h2.homedescription {
+  text-align: center;
+}
+
+a.button.large.hollow.requestquote {
+  margin-top: 40px;
+float:right;
+margin-right: 250cpx;
+}
+
+li> a.button {
+  background-color: inherit;
+  color: $primary-color!important;
+  font-size: 15px;
+  font-weight: 200;
+}
+li> a.button:hover, li > a.button:focus {
+  background-color: $primary-color;
+  color: #FFF!important;
 }
