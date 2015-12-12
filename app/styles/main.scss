@@ -50,6 +50,10 @@ h3 {
 ul.menu {
   font-size: 0;
 }
+
+ul {
+  list-style-position: outside!important;
+}
 .toplogo {
   float: left;
   height: 30px;
