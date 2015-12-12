@@ -115,17 +115,10 @@ border-color: $primary-color;
 
 svg.herologo {
 fill: $primary-color;
-height: 100px;
-width: 100px;
+height: 200px;
+width: 200px;
 }
 
-.thumbnail{
-border-width: 0;
-}
-
-.thumbnail:focus {
-border-width: 0;
-}
 
 
 h2.homedescription {
@@ -147,4 +140,27 @@ li> a.button {
 li> a.button:hover, li > a.button:focus {
   background-color: $primary-color;
   color: #FFF!important;
+}
+
+#herobanner1..callout.large{
+background-image: url('/images/herobackground.jpg');
+background-position: top;
+}
+
+#herobanner2.callout.large{
+background-image: url('/images/herobackground.jpg');
+background-position: center;
+}
+
+
+#nfrc p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#nfrc img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
 }
