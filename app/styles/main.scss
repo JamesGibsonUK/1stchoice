@@ -1,0 +1,99 @@
+// bower:scss
+@import "bower_components/foundation-sites/foundation-sites.scss";
+// endbower
+
+//Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+
+//Variables
+
+$primary-color: #212121;
+
+
+body {
+  background: #fafafa;
+  font-family: 'Lora', serif;
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Lora', serif;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.logo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  padding-right: 0;
+}
+
+.logo-text,
+.top-bar,
+.top-bar ul {
+  background-color: $primary-color;
+}
+
+.logo-text {
+  width: 1200px;;
+  color: #FFF;
+  padding-left: 5px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+}
+
+.button {
+background-color: $primary-color;
+border-color: $primary-color;
+}
+
+.button.large:focus, .button.large:hover {
+background-color: #FFF;
+color: $primary-color;
+
+}
+
+.button.hollow:focus, .button.hollow:hover {
+background-color: $primary-color;
+color: #FFF;
+border-color: $primary-color;
+}
+
+.button.hollow {
+color: $primary-color;
+border-color: $primary-color;
+}
+
+svg.herologo {
+fill: $primary-color;
+height: 100px;
+width: 100px;
+}
