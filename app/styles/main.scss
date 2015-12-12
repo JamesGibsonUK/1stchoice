@@ -115,6 +115,12 @@ li> a.button {
   font-size: 15px;
   font-weight: 200;
 }
+
+li> a.button.active {
+  background-color: $primary-color;
+  color: #FFF!important;
+}
+
 li> a.button:hover,
 li > a.button:focus {
   background-color: $primary-color;
@@ -148,6 +154,7 @@ footer > .row.full-width {
   color: $primary-color;
   text-align: center;
   margin-bottom: 0px;
+
 }
 
 .full-width {
@@ -158,4 +165,17 @@ footer > .row.full-width {
 .row.full-width p {
   border-top-width: 1px;
   margin-bottom: 5px;
+}
+
+.button.hollow {
+  font-size: 15px;
+}
+
+#contactdetails {
+  float:right;
+  text-align: right;
+}
+
+#contactdetailsheading {
+  float:right;
 }
