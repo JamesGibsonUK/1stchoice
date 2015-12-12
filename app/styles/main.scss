@@ -1,21 +1,18 @@
 // bower:scss
 @import "bower_components/foundation-sites/foundation-sites.scss";
 // endbower
-
 //Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-
 //Variables
-
 $primary-color: #212121;
-
-
+//End Variables
 body {
   background: #fafafa;
   font-family: 'Lora', serif;
   color: #333;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
-
 .hero-unit {
   margin: 50px auto 0;
   width: 300px;
@@ -25,14 +22,12 @@ body {
   background-color: #eee;
   border-radius: 6px;
   padding: 60px;
-
   h1 {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
   }
 }
-
 h1 {
   font-family: 'Lora', serif;
   font-weight: 700;
@@ -40,26 +35,21 @@ h1 {
 h2 {
   font-family: 'Lora', serif;
 }
-
 h3 {
-font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
-
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
 }
-
 .top-bar-right {
   padding-top: 12px;
 }
-
 ul.menu {
-  font-size:0px;
+  font-size: 0;
 }
-
 .toplogo {
   float: left;
   height: 30px;
@@ -68,99 +58,104 @@ ul.menu {
   padding-top: 2px;
   fill: $primary-color;
 }
-
 svg.toplogo {
   fill: $primary-color;
   height: 60px;
   width: 60px;
 }
-
 .logo-text,
 .top-bar,
 .top-bar ul {
   background-color: #FFF;
 }
-
 .logo-text {
-  width: 1200px;;
+  width: 1200px;
   color: $primary-color;
   padding-left: 5px;
   font-weight: 700;
   font-style: normal;
   font-size: 34px;
-padding-top: 15px;
+  padding-top: 15px;
 }
-
 .button {
-background-color: $primary-color;
-border-color: $primary-color;
+  background-color: $primary-color;
+  border-color: $primary-color;
 }
-
-.button.large:focus, .button.large:hover {
-background-color: #FFF;
-color: $primary-color;
-
+.button.large:focus,
+.button.large:hover {
+  background-color: #FFF;
+  color: $primary-color;
 }
-
-.button.hollow:focus, .button.hollow:hover {
-background-color: $primary-color;
-color: #FFF;
-border-color: $primary-color;
+.button.hollow:focus,
+.button.hollow:hover {
+  background-color: $primary-color;
+  color: #FFF;
+  border-color: $primary-color;
 }
-
 .button.hollow {
-color: $primary-color;
-border-color: $primary-color;
+  color: $primary-color;
+  border-color: $primary-color;
 }
-
 svg.herologo {
-fill: $primary-color;
-height: 200px;
-width: 200px;
+  fill: $primary-color;
+  height: 200px;
+  width: 200px;
 }
-
-
-
 h2.homedescription {
   text-align: center;
 }
-
 a.button.large.hollow.requestquote {
   margin-top: 40px;
-float:right;
-margin-right: 250cpx;
+  float: right;
+  margin-right: 250cpx;
 }
-
 li> a.button {
   background-color: inherit;
   color: $primary-color!important;
   font-size: 15px;
   font-weight: 200;
 }
-li> a.button:hover, li > a.button:focus {
+li> a.button:hover,
+li > a.button:focus {
   background-color: $primary-color;
   color: #FFF!important;
 }
-
-#herobanner1..callout.large{
-background-image: url('/images/herobackground.jpg');
-background-position: top;
+#herobanner1.callout.large {
+  background-image: url(/images/herobackground.jpg);
+  background-position: top;
 }
-
-#herobanner2.callout.large{
-background-image: url('/images/herobackground.jpg');
-background-position: center;
+#herobanner2.callout.large {
+  background-image: url(/images/herobackground.jpg);
+  background-position: center;
 }
-
-
 #nfrc p {
   text-align: center;
   font-size: 20px;
 }
-
 #nfrc img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 300px;
+}
+
+footer > .row.full-width {
+  padding-bottom:0px;
+  padding-top: 30px;
+  border-top-width:1px;
+  border-color: $primary-color;
+  font-size: 12px;
+  color: $primary-color;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.full-width {
+  border-top-width: 1px!important;
+  border-color: $primary-color;
+}
+
+.row.full-width p {
+  border-top-width: 1px;
+  margin-bottom: 5px;
 }
