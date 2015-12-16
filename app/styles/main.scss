@@ -32,6 +32,21 @@ h1 {
   font-family: 'Lora', serif;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    li.logo-text {
+        font-size: 20px;
+    }
+
+    svg.toplogo {
+      width: 40px!important;
+      height: 40px!important;
+    }
+
+}
+
+
 h2 {
   font-family: 'Lora', serif;
 }
@@ -100,11 +115,7 @@ svg.toplogo {
   color: $primary-color;
   border-color: $primary-color;
 }
-svg.herologo {
-  fill: $primary-color;
-  height: 200px;
-  width: 200px;
-}
+
 h2.homedescription {
   text-align: center;
 }
